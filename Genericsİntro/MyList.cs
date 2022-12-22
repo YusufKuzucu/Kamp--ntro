@@ -21,6 +21,7 @@ namespace Genericsİntro
                 items[i] = tempArray[i];// geçici array daki verileri geri aldık
             }
             items[items.Length - 1] = item;
+            Console.WriteLine( item);
         }
     }
 }
